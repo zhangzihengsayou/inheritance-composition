@@ -1,4 +1,4 @@
-public class PastEvents  extends Event{
+public class PastEvents{
     private LocalDate eventStartDate;
     private LocalDate eventEndDate;
     private String paymentStatus;
@@ -6,7 +6,6 @@ public class PastEvents  extends Event{
     private static final double eventCost = 10_000;
 
     public PastEvents(String eventName, LocalDate eventStartDate, LocalDate eventEndDate, String paymentStatus, boolean requiresExtension) {
-        super(eventName);
         this.eventStartDate = eventStartDate;
         this.eventEndDate = eventEndDate;
         this.paymentStatus = paymentStatus;
