@@ -1,4 +1,4 @@
-public class ConferenceEvent   {
+public class ConferenceEvent  {
     private boolean breakfastRequired;
     private double breakfastCost;
     private boolean lunchRequired;
@@ -86,6 +86,7 @@ public class ConferenceEvent   {
 
     @Override
     public String toString() {
+        String eventDetails = super.toString();
         eventDetails += "\nBreakfast Required: " + breakfastRequired +
                 "\nBreakfast Cost: $" + breakfastCost +
                 "\nLunch Required: " + lunchRequired +
@@ -97,3 +98,4 @@ public class ConferenceEvent   {
     }
     
 }
+
