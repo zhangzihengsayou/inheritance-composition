@@ -1,4 +1,4 @@
-public class PastEvents  {
+public class PastEvents  extends Event{
     private LocalDate eventStartDate;
     private LocalDate eventEndDate;
     private String paymentStatus;
