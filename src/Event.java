@@ -1,4 +1,4 @@
-public class Event {
+public abstract class Event {
     private String eventID;
     private String eventName;
     private String eventLocation;
@@ -74,7 +74,7 @@ public class Event {
                 "Event Cost: $" + eventCost;
  
     }
-    public void calculateEventCost(){
+    public abstract void calculateEventCost(){
         this.eventCost = eventCost + (eventCost * tax) + insuranceCost;
     }
 
