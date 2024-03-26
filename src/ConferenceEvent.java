@@ -1,4 +1,4 @@
-public class ConferenceEvent extends Event implements CalculateEventCostInterface  {
+public class ConferenceEvent   {
     private boolean breakfastRequired;
     private double breakfastCost;
     private boolean lunchRequired;
@@ -86,7 +86,6 @@ public class ConferenceEvent extends Event implements CalculateEventCostInterfac
 
     @Override
     public String toString() {
-        String eventDetails = super.toString();
         eventDetails += "\nBreakfast Required: " + breakfastRequired +
                 "\nBreakfast Cost: $" + breakfastCost +
                 "\nLunch Required: " + lunchRequired +
