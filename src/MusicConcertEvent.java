@@ -1,4 +1,4 @@
-public class MusicConcertEvent extends Event implements CalculateEventCostInterface  {
+public class MusicConcertEvent {
     private boolean merchandiseRequired;
     private double merchandiseCost;
 
